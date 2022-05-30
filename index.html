@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Expenses chart component</title>
+  <link rel="stylesheet" href="input.css">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="background background--cream">
+    <div class="header header--orange">
+      <p class="header__text header__text--white">My Balance</p>
+      <p class="header__text__amount header__text__amount--white"><br>$921.48</p>
+      <img class="header__logo" src="/images/logo.svg" alt="Logo">
+    </div>
+    <div class="card card--white">
+      <h1 class="card__head card__head--black">Spending-Last 7 days</h1>
+      <div class="card__canvas">
+        <canvas id="myChart" width="100%"></canvas>
+      </div>
+      <hr>
+  <div class="card__down">
+    <p class="card__down__text__top card__down__text--gray">Total this month</p>
+    <h1 class="card__down__head__amount card__down__head__amount--black">$478.33</h1>
+    <p class="card__down__amount__bottom card__down__amount--black">+2.4%</p>
+     <p class="card__down__text card__down__text--gray">from last month</p>
+  </div>
+  </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">doandroidsdreamof</a>.
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+
+
+</body>
+</html>
