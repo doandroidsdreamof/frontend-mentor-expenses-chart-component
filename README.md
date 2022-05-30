@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![design](screanshot.png)
+![design](screenshot.png)
 
 ### Built with
 
